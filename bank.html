@@ -5,14 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>commercial bank for count</title>
+    
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
-<body>
+<body class="bg-gradient-to-r from-zinc-400 via-teal-700 to-purple-700">
     <header>
-        <h1 class="text-5xl text-center mt-6">Now Get <span class="font-semibold text-fuchsia-700">Some Mooneeyy</span>!!!</h1>
+        <h1 class="text-5xl text-current text-center mt-6">Now Get <span class="font-semibold text-stone-300">Some Mooneeyy</span>!!!</h1>
      </header>
     <main>
-        
+        <section class="mt-12">
+            <div class="grid grid-cols-3 gap-4 w-6/12 mx-auto text-white">
+                <div class="bg-yellow-400 p-6 rounded-xl">
+                    <h4 class="text-3xl">Deposit</h4>
+                    <h2 class="text-5xl">$<span></span>00</h2>
+                </div>
+                <div class="bg-fuchsia-600 p-6 rounded-xl">
+                    <h4 class="text-3xl">Withdraw</h4>
+                    <h2 class="text-5xl">$<span></span>00</h2>
+                </div>
+                <div class="bg-pink-600 p-6 rounded-xl">
+                    <h4 class="text-3xl">Balance</h4>
+                    <h2 class="text-5xl">$<span></span>00</h2>
+                </div>
+
+            </div>
+        </section>
+        <!-- dipsit and withdraw section -->
+
+        <section class="mt-12" >
+            <div class="grid grid-cols-2 gap-4 w-6/12 mx-auto text-white">
+                <div class="bg-sky-400 p-6 rounded-xl">
+                    <h4 class="text-3xl">Please Deposit</h4>
+                    <input id="email-field" class="w-9/12 block mb-2 mt-2 px-3"  name="" id="" placeholder="$ Amount you want to deposit">
+                    <button id="submit-btn" class="bg-yellow-400 hover:bg-pink-600 px-6 py-2 font-semibold text-white rounded-lg">Submit</button>
+                </div>
+                <div class="bg-lime-400 p-6 rounded-xl">
+                    <h4 class="text-3xl">Please Withdraw</h4>
+                    <input id="email-field" class="w-9/12 block mb-2 mt-2 px-3"  name="" id="" placeholder="$ Amount you want to withdraw">
+                    <button id="submit-btn" class="bg-fuchsia-600 hover:bg-rose-500 px-6 py-2 font-semibold text-white rounded-lg">Submit</button>
+                </div>
+            </div>
+
+        </section>
     </main>
 </body>
 </html>
